@@ -1,15 +1,16 @@
 import React from 'react';
 import Logo from '../../images/Logo.png';
-import Bag from '../../images/Bag icon.png';
+import Navbar from './Navbar';
 
-export default function Navbar() {
+export default function Searchbar() {
     return (
-        <div className="row mt-5">
+        <div>
+            <div className="row mt-5 mb-5">
             <div className="container d-flex">
-                <div className="col-2 mt-2 mr-5">
-                    <img src={Logo} alt="Logo" />
+                <div className="col-2 mt-2 mr-5 align-sm-center">
+                    <img className="" src={Logo} alt="Logo" />
                 </div>
-                <div className="input-group ml-3 col-6">
+                <div className="input-group ml-3 col-6 d-none d-xl-flex">
                     <input type="text" className="form-control _radius" placeholder="Search products..." />
                     <div className="input-group-append">
                         <button className="btn border text-dark" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories<i className="ml-4 fas fa-angle-down theme-color-text"></i></button>
@@ -21,33 +22,20 @@ export default function Navbar() {
                         <button className="btn theme-color _radius-right" type="button"><i className="fas fa-search text-white"></i></button>
                     </div>
                 </div>
-
-                <div className="align-self-center">
-                    <i className="far fa-user fa-lg ml-4"></i>
-                    <small className="ml-3">My account</small>
-                </div>
-                <div className="ml-5 align-self-center">
-                    <i className="far fa-heart fa-lg"></i>
-
-                </div>
-                <div className="d-flex align-self-center">
-
-                    <div className="">
-                        <span className="badge badge-pill theme-color position-absolute"><small>0</small></span>
-                        <i className="fas fa-random fa-lg ml-3"></i>
+                <div className="d-flex align-items-center">
+                    <div className="d-none d-lg-block">
+                        <a href="/#" className="text-dark ml-3"><i className="fa-lg far fa-user mr-1"></i>My account</a>
+                        <a href="/#" className="text-dark ml-5"><i className="fa-lg far fa-heart"></i></a>
+                        <a href="/#" className="text-dark ml-3"><i className="fa-lg fas fa-random position-relative"><span className="badge rounded-pill theme-color position-absolute _pill text-white font-weight-light">O</span></i></a>
+                        <a href="/#" className="text-dark ml-3"><i className="fa-lg fas fa-shopping-bag position-relative"><span className="badge rounded-pill theme-color position-absolute _pill text-white font-weight-light">O</span></i></a>
+                        <small className="ml-2">$0.00</small>
                     </div>
-
-                    <div className="">
-                        <span className="badge badge-pill theme-color position-absolute"><small>0</small></span>
-                        <img className="mb-1 ml-3" src={Bag} alt="Icon" />
-                    </div>
-
-
-
-                    <small className="ml-2">$0.00</small>
                 </div>
             </div>
-            <Navbar />
+           
         </div>
+        <Navbar />
+        </div>
+        
     )
 }

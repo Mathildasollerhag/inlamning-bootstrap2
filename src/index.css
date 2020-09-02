@@ -6,14 +6,16 @@ body {
 
 :root {
   --theme-color: #20D3C2;
+  --primary-gray-background: #EEEE;
+  --theme-card-color: #EDFCFA;
 }
 
 .theme-color {
-  background-color: var(--theme-color);
+  background-color: var(--theme-color) !important;
 }
 
 .theme-color-text {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 
 
