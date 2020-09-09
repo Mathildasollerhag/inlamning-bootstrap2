@@ -8,7 +8,7 @@ export default function ProductCards() {
         <div className="mt-5 d-flex align-items-center">
             <div className="container p-0">
                 <div className="card-deck">
-                    <div className="card border-0 container-hover d-none d-lg-block">
+                    <div className="card border-0 container-hover d-none d-lg-block d-none-media">
                         <img className="position-relative img-overlay" src={Card1} alt="Card cap" />
                         <div className="circle-new1">HOT</div>
                         <div className="blue-theme text-white py-2 rounded-bottom position-absolute box-hover">

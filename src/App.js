@@ -9,7 +9,12 @@ import DiscountBanner from './views/DiscountBanner';
 import FeaturedProducts from './views/FeaturedProducts';
 import FlashBanner from './views/FlashBanner';
 import TopSellers from './views/TopSellers';
+import QuotesView from './views/QuotesView';
+import LatestBlogView from './views/LatestBlogView';
 import SubscribeNow from './views/SubscribeNow';
+import Logos from './components/Logos';
+
+
 
 
 
@@ -25,7 +30,10 @@ function App() {
       <FeaturedProducts />
       <FlashBanner />
       <TopSellers />
+      <QuotesView />
+      <LatestBlogView />
       <SubscribeNow />
+      <Logos />
     </div>
   );
 }
