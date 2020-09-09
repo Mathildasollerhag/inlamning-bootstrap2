@@ -7,7 +7,9 @@ body {
 :root {
   --theme-color: #20D3C2;
   --primary-gray-background: #EEEE;
+  --secondary-gray-background: #CCCCCC;
   --theme-card-color: #EDFCFA;
+  --blue-theme-color: #0E153D;
 }
 
 .theme-color {
@@ -17,5 +19,8 @@ body {
 .theme-color-text {
   color: var(--theme-color) !important;
 }
+
+
+
 
 

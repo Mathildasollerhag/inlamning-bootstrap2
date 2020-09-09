@@ -5,10 +5,10 @@ import Navbar from './Navbar';
 export default function Searchbar() {
     return (
         <div>
-            <div className="row mt-5 mb-5">
-            <div className="container d-flex">
+            <div className="container mt-5 mb-5">
+            <div className="row d-flex">
                 <div className="col-2 mt-2 mr-5 align-sm-center">
-                    <img className="" src={Logo} alt="Logo" />
+                    <img className="ml-3" src={Logo} alt="Logo" />
                 </div>
                 <div className="input-group ml-3 col-6 d-none d-xl-flex">
                     <input type="text" className="form-control _radius" placeholder="Search products..." />
