@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../images/Logo.png';
+import Logo from '../../images/Logo1.png';
 import Navbar from './Navbar';
 
 export default function Searchbar() {

@@ -13,6 +13,7 @@ import QuotesView from './views/QuotesView';
 import LatestBlogView from './views/LatestBlogView';
 import SubscribeNow from './views/SubscribeNow';
 import Logos from './components/Logos';
+import Footer from './components/Footer';
 
 
 
@@ -34,6 +35,7 @@ function App() {
       <LatestBlogView />
       <SubscribeNow />
       <Logos />
+      <Footer />
     </div>
   );
 }

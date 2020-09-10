@@ -358,6 +358,35 @@ color: white !important;
    margin-bottom: 0;
 }
 
+.grid-layout-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  grid-gap: 6px;
+  grid-auto-rows: minmax(70px, auto);
+  grid-auto-flow: dense;
+  padding: 4px;
+}
+
+.grid-item-footer {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #929796;
+  background-color: var(--secondary-gray-background);
+  border-radius: 5px;
+}
+
+.blue-theme-dark {
+  background-color: #080C24;
+}
+
+.border-top-theme {
+  border-top: 8px solid var(--theme-color);
+}
+
+
+
 
 
 
